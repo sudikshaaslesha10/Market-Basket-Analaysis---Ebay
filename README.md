@@ -38,39 +38,39 @@ Transactions were aggregated at the customer level for behavioral segmentation.
 
 Programming: Python
 Libraries:
-Pandas (Data manipulation)
-NumPy (Numerical operations)
-Scikit-learn (K-Means Clustering)
-Matplotlib & Seaborn (Visualization)
+- Pandas (Data manipulation)
+- NumPy (Numerical operations)
+- Scikit-learn (K-Means Clustering)
+- Matplotlib & Seaborn (Visualization)
 
 ## 🔄 Project Workflow
 ### 1️⃣ Data Cleaning & Preprocessing
 
-Removed cancelled transactions
-Filtered negative quantities and invalid entries
-Handled missing Customer IDs
-Aggregated transaction-level data into customer-level metrics
-Performed feature scaling using StandardScaler
+- Removed cancelled transactions
+- Filtered negative quantities and invalid entries
+- Handled missing Customer IDs
+- Aggregated transaction-level data into customer-level metrics
+- Performed feature scaling using StandardScaler
 
 ### 2️⃣ Feature Engineering
 
-Created behavioral features such as:
-Total purchase quantity
-Total spending
-Number of transactions
-Average purchase value
+- Created behavioral features such as:
+- Total purchase quantity
+- Total spending
+- Number of transactions
+- Average purchase value
 
 ### 3️⃣ K-Means Clustering
 
-Applied Elbow Method to determine optimal number of clusters
-Implemented K-Means algorithm
-Segmented customers into distinct behavioral groups
+- Applied Elbow Method to determine optimal number of clusters
+- Implemented K-Means algorithm
+- Segmented customers into distinct behavioral groups
 
 ### 4️⃣ Cluster Analysis
 
-Interpreted cluster characteristics
-Identified high-spending and frequent buyers
-Compared purchasing trends across clusters
+- Interpreted cluster characteristics
+- Identified high-spending and frequent buyers
+- Compared purchasing trends across clusters
 
 ## 📊 Key Insights
 
