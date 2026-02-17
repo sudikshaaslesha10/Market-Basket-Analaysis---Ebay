@@ -18,21 +18,8 @@ The goal was to uncover hidden patterns in customer transactions to support targ
 
 ## 🗂️ Dataset
 
-The dataset consists of transactional e-commerce records including:
+[EBAY DATA](./eBay.csv)
 
-Invoice Number
-
-Product Description
-
-Quantity
-
-Unit Price
-
-Customer ID
-
-Country
-
-Transactions were aggregated at the customer level for behavioral segmentation.
 
 ## 🛠️ Tech Stack
 
